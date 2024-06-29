@@ -45,6 +45,7 @@ Route::resource('/post', PostController::class)->names([
   'store' => 'posts.store',
   'show' => 'posts.show',
 ]);
+Route::get('test',[PostController::class,'test']);
 
 // Route::get('Weather',[WeatherController::class,'Weather'])->name('Weather');
 Route::match(["get", "post"], "weather", [WeatherController::class, "weather"])->name("weather.form");

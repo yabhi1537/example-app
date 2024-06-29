@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use App\Models\Post;
 use Illuminate\Http\Request;
 use App\Events\PostCreated;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Collection;
 
 class PostController extends Controller
 {
@@ -49,6 +51,15 @@ public function index()
 
      event(new PostCreated($data));
    return redirect()->route('posts.index')->with('success', 'Post created successfully.');
+  }
+
+  public function test()
+  {
+
+  //  $Post = Post::select('salary')->min()->get();
+   $Posts = DB::table('posts')->where('id' < 2)->get();
+
+    dd($Posts);
   }
 
 }
