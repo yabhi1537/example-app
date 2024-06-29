@@ -84,4 +84,39 @@ https://leadflo360.com.au/core-practice/?code=eyJhbGciOiJSU0EtT0FFUCIsImVuYyI6Ik
 
 
 
+cccc<?php
+
+  
+core Live Key =
+url=  https://tso.corepractice.is
+ClientID: Flo-Core-LIVE-API
+Secret: 5AB61A935DE15A4C7AB6DB90642700E481237CC357335D3E
+
+// core login live api //
+
+https://tso.corepractice.is
+user name = Genigh
+pass = I#s7jd!Tk!bpnAR3
+
+url = https://tso.corepractice.is/api/v2/oauth2/token
+redirect_uri = https://leadflo360.com.au/core-practice
+
+core-practice live api code url =
+
+https://tso.corepractice.is/Auth/Authorization?response_type=code&client_id=Flo-Core-LIVE-API&redirect_uri=https://leadflo360.com.au/core-practice&state=123
+
+core-practice  api code url =
+https://sandbox.corepractice.is/Auth/Authorization?response_type=code&client_id=LF360-TEST-API&redirect_uri=http://127.0.0.1:8000/corepractice&state=123
+
+Get Code Url = https://sandbox.corepractice.is/Auth/Authorization?response_type=code&client_id=TSO-CORE-DENTALFLO&redirect_uri=http://127.0.0.1:8000/corepractice&state=123
+
+Get Code Url Old = https://sandbox.corepractice.is/Auth/Authorization?response_type=code&client_id=LF360-TEST-API&redirect_uri=http://127.0.0.1:8000/corepractice&state=123
+
+client_id: LF360-TEST-API
+Client_secret: oD2MmONyPhWHr2pvu4xrrgsGyKDv5Wx0fdeqGKbWWVirzgqS8e33GkofBiDZtBKoL7cO019I
+
+https://sandbox.corepractice.is/Auth/Authorization?response_type=code&client_id=LF360-TEST-API&redirect_uri=http://127.0.0.1:8000/corepractice&state=123
+
+https://sandbox.corepractice.is/Auth/Authorization?response_type=code&client_id=LF360-TEST-API&redirect_uri=http://localhost&state=123
+
 
